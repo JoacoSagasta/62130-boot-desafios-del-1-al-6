@@ -1,0 +1,126 @@
+/* Paleta de colores:
+BC6C25 - Naranja Fuerte
+DDA15E - Naranja Suave
+FEFAE0 - Manteca
+283618 - Verde Fuerte
+606C38 - Verde Suave
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+      background-image: url(../images/fondoPrincipal.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+fieldset{
+      background-color: #DDA15E;
+}
+
+
+h1{
+      background-image: url(../images/fondotitulo.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      font-family: 'Anton', sans-serif;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+      font-size: 80px;
+      color: #FEFAE0;
+      text-shadow: 3px 4px 5px #BC6C25 ;
+}
+
+.contenedorPrincipal{
+      padding-left: 200px;
+      padding-right: 200px;
+}
+
+.contenedor{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 20px;
+}
+  
+.fila{
+      display: flex;
+      flex-direction: row;
+      align-self: stretch;
+      justify-content: center;
+}
+
+legend{
+      font-size: 25px ;
+      background-color: #BC6C25;
+      color: #283618;
+      border-radius: 8px;
+}
+
+label{
+      text-align: center;
+}
+
+hr{
+      border: none;
+      border-top: 10px dotted #BC6C25;
+      width: 40%;
+}
+
+.largo{
+      min-width: 80%;
+}
+  
+textarea{
+      height: 150px;
+      resize: vertical;
+      border-radius: 8px;
+}
+
+
+input, select, textarea{
+      background-color: #606C38;
+      border-radius: 8px;
+}
+
+label, p{
+      font-size: 25px;
+      color: #283618; 
+      text-shadow: 2px 2px #BC6C25;
+}
+
+button{
+      background-color: #2B3D36;
+      color: #A6C1B9;
+      display: inline-block;
+      padding: 15px;
+      margin: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      line-height: 1.5;
+      border: 1px solid #A6C1B9;
+      border-radius: 4px;
+}
+.contenedorBotones{
+      display: flex;
+      flex-direction: row;
+      align-self: stretch;
+      justify-content: center;
+}
+
+input:focus{
+      background-color: #FEFAE0;
+}
+  
+textarea:focus{
+      background-color: #FEFAE0;
+}
+  
+fieldset:focus-within legend{
+      background: #BC6C25;
+}
+
+fieldset:focus-within{
+      background: #BC6C25;
+}

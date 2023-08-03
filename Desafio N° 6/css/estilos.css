@@ -1,0 +1,148 @@
+/* Colores:
+#4D6D63
+#1F2023
+#A6C1B9
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body{
+     background-color: #1F2023;
+}
+
+.contenedorPrincipal{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: center;
+}
+
+.filaUltimo{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: start;
+}
+
+.ultimoCuadro{
+    text-align: left;
+}
+
+
+h1{
+    color: white;
+    font: bold 60px "Poppins", sans-serif;
+    text-align: center;
+    margin: 0 200px;
+    margin-top: 30px;
+    border-bottom: solid 20px #4D6D63;
+    border-top: solid 20px #4D6D63;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+}
+
+legend{
+    font: 18px 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+    background-color:#4D6D63;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+fieldset{
+    background-color:#D6E2DE;
+    border: solid 3px #4D6D63;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: 30px 200px;
+    padding: 20px;
+}
+
+hr{
+    border: none;
+    border-top: 10px dotted #A6C1B9;
+    width: 40%;
+}
+
+form, select, p, label{
+        font-family: 'roboto', sans-serif;
+        font-size: 20px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.largo{
+    min-width: 80%;
+}
+
+select, textarea{
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+textarea{
+    height: 150px;
+    resize: vertical;
+}
+
+input:focus{
+    background-color: #2B3D37;
+}
+
+textarea:focus{
+    background-color: #2B3D37;
+}
+
+fieldset:focus-within legend{
+    background: #2B3D36;
+}
+fieldset:focus-within{
+    background: #A6C1B9;
+}
+
+button:hover{
+    background-color: #83B1B0  ;
+    color: #2B3D37;
+}
+
+footer{
+    color: white;
+    padding-left: 200px;
+}
+
+button{
+    background-color: #2B3D36;
+    color: #A6C1B9;
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 1.5;
+    border: 1px solid #A6C1B9;
+    border-radius: 4px;
+}
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: center;
+}

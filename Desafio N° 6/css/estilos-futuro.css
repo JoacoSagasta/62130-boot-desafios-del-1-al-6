@@ -1,0 +1,131 @@
+/* Paleta de colores:
+#30DAF2 - Cian
+#92AAC5 - Celeste Oscuro
+#DA5BB4 - Magenta
+#77259B - Magenta Oscuro
+#9E4BDA - Violeta
+#C478C3 - Pastel
+#8CB1C6 - Pastel 2
+#5AA6DD - Celeste
+#7B4EE9 - Violeta Oscuro
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+      background-image: url(../images/fondo2Fut.png);
+      background-repeat: no-repeat;
+      background-size:  100% 100%
+}
+
+fieldset{
+      background-color: #C478C3;
+}
+
+
+h1{
+      background-image: url(../images/bannerFut.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      font-family: 'Anton', sans-serif;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+      font-size: 60px;
+      color: #00ffff;
+      text-shadow: 5px 5px 2px #DA5BB4 ;
+}
+
+.contenedorPrincipal{
+      padding-left: 400px;
+      padding-right: 400px;
+}
+
+.contenedor{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 20px;
+}
+  
+.fila{
+      display: flex;
+      flex-direction: row;
+      align-self: stretch;
+      justify-content: center;
+}
+
+legend{
+      font-size: 25px ;
+      background-color: #5AA6DD;
+      color: black;
+      border-radius: 8px;
+}
+
+label{
+      text-align: center;
+}
+
+hr{
+      border: none;
+      border-top: 10px dotted #30DAF2;
+      width: 40%;
+}
+
+.largo{
+      min-width: 80%;
+}
+  
+textarea{
+      height: 150px;
+      resize: vertical;
+      border-radius: 8px;
+}
+
+
+input, select, textarea{
+      background-color: #77add3;
+      border-radius: 8px;
+}
+
+label, p{
+      font-size: 25px;
+      color: black; 
+      text-shadow: 1px 1px #30DAF2;
+}
+
+button{
+      background-color: #1BEFFA;
+      color: black;
+      display: inline-block;
+      padding: 15px;
+      margin: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      line-height: 1.5;
+      border: 1px solid black;
+      border-radius: 4px;
+}
+.contenedorBotones{
+      display: flex;
+      flex-direction: row;
+      align-self: stretch;
+      justify-content: center;
+}
+
+input:focus{
+      background-color: #FEFAE0;
+}
+  
+textarea:focus{
+      background-color: #FEFAE0;
+}
+  
+fieldset:focus-within legend{
+      background: #5AA6DD;
+}
+
+fieldset:focus-within{
+      background: #a789f1;
+}
